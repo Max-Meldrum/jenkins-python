@@ -1,0 +1,11 @@
+AUTHORS
+ChangeLog
+README.rst
+setup.cfg
+setup.py
+jenkins_python.egg-info/PKG-INFO
+jenkins_python.egg-info/SOURCES.txt
+jenkins_python.egg-info/dependency_links.txt
+jenkins_python.egg-info/not-zip-safe
+jenkins_python.egg-info/pbr.json
+jenkins_python.egg-info/top_level.txt

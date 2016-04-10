@@ -1,0 +1,55 @@
+actionid: tox
+msg: packaging
+cmdargs: ['/usr/bin/python', local('/home/meldrum/jenkins-python/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/home/meldrum/jenkins-python/.tox/dist')]
+env: None
+
+running sdist
+[pbr] Writing ChangeLog
+[pbr] Generating ChangeLog
+[pbr] ChangeLog complete (0.0s)
+[pbr] Generating AUTHORS
+[pbr] AUTHORS complete (0.0s)
+running egg_info
+writing pbr to jenkins_python.egg-info/pbr.json
+writing jenkins_python.egg-info/PKG-INFO
+writing top-level names to jenkins_python.egg-info/top_level.txt
+writing dependency_links to jenkins_python.egg-info/dependency_links.txt
+[pbr] Processing SOURCES.txt
+[pbr] In git context, generating filelist from git
+warning: no previously-included files found matching '.gitignore'
+warning: no previously-included files found matching '.gitreview'
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+writing manifest file 'jenkins_python.egg-info/SOURCES.txt'
+running check
+warning: Check: missing required meta-data: url
+
+creating jenkins-python-0.0.0
+creating jenkins-python-0.0.0/jenkins_python.egg-info
+making hard links in jenkins-python-0.0.0...
+hard linking AUTHORS -> jenkins-python-0.0.0
+hard linking ChangeLog -> jenkins-python-0.0.0
+hard linking README.rst -> jenkins-python-0.0.0
+hard linking setup.cfg -> jenkins-python-0.0.0
+hard linking setup.py -> jenkins-python-0.0.0
+hard linking jenkins_python.egg-info/PKG-INFO -> jenkins-python-0.0.0/jenkins_python.egg-info
+hard linking jenkins_python.egg-info/SOURCES.txt -> jenkins-python-0.0.0/jenkins_python.egg-info
+hard linking jenkins_python.egg-info/dependency_links.txt -> jenkins-python-0.0.0/jenkins_python.egg-info
+hard linking jenkins_python.egg-info/not-zip-safe -> jenkins-python-0.0.0/jenkins_python.egg-info
+hard linking jenkins_python.egg-info/pbr.json -> jenkins-python-0.0.0/jenkins_python.egg-info
+hard linking jenkins_python.egg-info/top_level.txt -> jenkins-python-0.0.0/jenkins_python.egg-info
+copying setup.cfg -> jenkins-python-0.0.0
+Writing jenkins-python-0.0.0/setup.cfg
+creating '.tox/dist/jenkins-python-0.0.0.zip' and adding 'jenkins-python-0.0.0' to it
+adding 'jenkins-python-0.0.0/ChangeLog'
+adding 'jenkins-python-0.0.0/setup.cfg'
+adding 'jenkins-python-0.0.0/setup.py'
+adding 'jenkins-python-0.0.0/PKG-INFO'
+adding 'jenkins-python-0.0.0/AUTHORS'
+adding 'jenkins-python-0.0.0/README.rst'
+adding 'jenkins-python-0.0.0/jenkins_python.egg-info/pbr.json'
+adding 'jenkins-python-0.0.0/jenkins_python.egg-info/not-zip-safe'
+adding 'jenkins-python-0.0.0/jenkins_python.egg-info/PKG-INFO'
+adding 'jenkins-python-0.0.0/jenkins_python.egg-info/SOURCES.txt'
+adding 'jenkins-python-0.0.0/jenkins_python.egg-info/top_level.txt'
+adding 'jenkins-python-0.0.0/jenkins_python.egg-info/dependency_links.txt'
+removing 'jenkins-python-0.0.0' (and everything under it)
