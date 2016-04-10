@@ -13,6 +13,11 @@ class NumbersTest(unittest.TestCase):
         result = num.sub(10,5)
         self.assertEqual(result,5)
 
+    def test_if_mult_works(self):
+        num = Numbers()
+        result = num.mult(15,2)
+        self.assertEqual(result,30)
+
 
 if __name__ == '__main__':
     unittest.main()
