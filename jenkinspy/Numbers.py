@@ -17,4 +17,4 @@ class Math(object):
     @staticmethod
     def mult(num_1, num_2):
         """Return the result of the multiplication"""
-        return num_1-num_2
+        return num_1*num_2
