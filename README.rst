@@ -10,7 +10,9 @@ Includes coverage report and violations.
 Setting up jenkins
 ==================
 
-git clone https://github.com/jenkinsci/docker.git
+Clone the setup::
+
+    git clone https://github.com/jenkinsci/docker.git
 
 Add this to the Dockerfile::
     
@@ -34,6 +36,9 @@ Run container::
     docker run -d -p 49001:8080 -v $PWD/jenkins:/var/jenkins_home -t jenkins
 
 
+Access jenkins::
+
+    localhost:49001
 
 ====================
 Building jenkins job
