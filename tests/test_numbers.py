@@ -19,6 +19,10 @@ class NumbersTest(unittest.TestCase):
         result = num.mult(15, 2)
         self.assertEqual(result, 30)
 
+	def test_if_elite_works(self):
+		self.assertEqual(1337,1337)
+
+
 
 if __name__ == '__main__':
     unittest.main()
